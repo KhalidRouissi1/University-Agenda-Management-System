@@ -1,8 +1,9 @@
-module com.example.agendams {
+module com.example.employeemanagmentapplication {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
-    opens com.example.agendams to javafx.fxml;
-    exports com.example.agendams;
+    opens com.example.employeemanagmentapplication to javafx.fxml;
+    exports com.example.employeemanagmentapplication;
 }
